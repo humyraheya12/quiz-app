@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html, body {
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="bg-blue-950 flex items-center justify-center min-h-screen">
+  <div class="app bg-white w-full max-w-lg p-8 rounded-lg m-6">
+    <!-- Quiz content goes here -->
+     <h1 class="text-2xl font-bold border-b-2 border-gray-700 pb-8">Simple Quiz</h1>
+     <div class="quiz p-5">
+      <h2 id="question" class="font-semibold text-xl">
+        Question goes here</h2>
+        <div id="answer-btn" class="space-y-3 mt-5">
+          <!-- <button class="btn bg-white  text-black border-2 border-gray-700 cursor-pointer p-3 m-2 w-[100%]">Answer 1</button>
+          <button class="btn bg-white  text-black border-2 border-gray-700 cursor-pointer p-3 m-2 w-[100%]">Answer 1</button>
+          <button class="btn bg-white text-black border-2 border-gray-700 cursor-pointer p-3 m-2 w-[100%]">Answer 1</button>
+          <button class="btn bg-white text-black border-2 border-gray-700 cursor-pointer p-3 m-2 w-[100%]">Answer 1</button>
+           -->
+        </div>
+        <div>
+          <button id="next-btn" class="btn bg-slate-400 w-full sm:w-40 sm:float-right hidden mt-5">Next</button>
+        </div>
+      
+     </div>
+  </div> 
+  <!-- <script src="js/next.js"></script> -->
+  <script src="js/quiz.js"></script>
+  <!-- <script src="js/copy.js"></script> -->
+   
+</body>
+</html>
